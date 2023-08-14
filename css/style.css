@@ -1,0 +1,24 @@
+img {
+    width: 500px;
+    height: auto;
+    border: 7px solid green;  
+}
+
+button {
+    color: black;
+    background-color: lightgreen;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #fffaca;
+}
+
+ul, ol{
+    border: 5px solid greenyellow;
+}
+
+h1, h2, h3, h4 , p, li{
+    color: #003554;
+}
+
