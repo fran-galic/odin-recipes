@@ -1,12 +1,19 @@
 img {
     width: 500px;
     height: auto;
-    border: 7px solid green;  
+    border: 7px solid green;
+    margin-left: 8px;
 }
 
 button {
     color: black;
     background-color: lightgreen;
+    /* padding: 6px 8px; */
+    font-size: large;
+    margin: 0 0 0 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
 }
 
 body {
@@ -16,9 +23,47 @@ body {
 
 ul, ol{
     border: 5px solid greenyellow;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-h1, h2, h3, h4 , p, li{
+h1, h2, h3, h4 , p {
     color: #003554;
+    margin-left: 6px;
 }
+
+p, ul, ol {
+    font-size: 30px;
+    padding-right: 60px;
+}
+
+h1 {font-size: 40px;}
+h2 {font-size: 37px;}
+h3 {font-size: 34px;}
+h4 {font-size: 30px;}
+
+li {
+    color: #003554;
+    font-size: 30px;
+}
+
+ol {
+    padding-left: 60px;
+}
+
+.bellow10 {
+    padding-left: 50px;
+}
+
+button a {
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+button a:hover {
+    background-color: #003554;
+}
+
 
